@@ -158,6 +158,7 @@ label {
 #problem {
   background: #12cad6;
   color: #fff;
+  max-width: 375px;
 
 }
 #problem i {
