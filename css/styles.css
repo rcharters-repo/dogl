@@ -94,10 +94,14 @@ label {
   background: #12cad6;
   color:#fff;
   padding-bottom: 3rem;
-  height: 850px;
-  max-width: 375px
-
+  height: 900px;
+  margin: auto;
+  }
+#landing i {
+  background: #12cad6;
+  color:#fff;
 }
+
 .btn {
   font-size: 1.5rem;
   background: #14ade0;
@@ -124,7 +128,7 @@ label {
   margin: auto;
 }
 .contact-form {
-  margin:auto;
+  margin: auto;
   font-size: 2rem;
 }
 .dogl-logo {
@@ -154,11 +158,20 @@ label {
 .fa-heart {
   color: #fa163f;
 }
+.arrow {
+  display: inline-block;
+
+}
+.arrows {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+}
 /* Problem Section */
 #problem {
   background: #12cad6;
   color: #fff;
-  max-width: 375px;
+  margin: auto;
 
 }
 #problem i {
@@ -171,13 +184,18 @@ label {
 
 }
 #problem p {
-  width: 350px;
+  max-width: 350px;
   text-align: center;
   margin: auto;
   color: #333;
   font-size: 1.2rem;
 }
 /* Solution section */
+
+#solution {
+  margin: auto;
+  height: 1100px;
+}
 
 #solution i {
   border-radius: 50%;
@@ -189,7 +207,7 @@ label {
 
 }
 #solution p {
-  width: 350px;
+  max-width: 350px;
   text-align: center;
   margin: auto;
   font-size: 1.2rem;
